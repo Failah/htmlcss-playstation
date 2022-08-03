@@ -57,6 +57,10 @@ body {
     background-color: #161c3b;
 }
 
+.vs-bg-lightblue {
+    background-color: #00439c;
+}
+
 
 /* contents */
 
@@ -85,4 +89,16 @@ body {
 .vs-media-fix {
     max-width: 600px;
     margin: 0 auto;
+}
+
+.vs-sie-fix {
+    max-width: 150px;
+}
+
+.vs-ps-footer-fix {
+    width: 90px;
+}
+
+.vs-globe-fix {
+    width: 45px;
 }
