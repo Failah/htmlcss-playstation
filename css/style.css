@@ -14,6 +14,21 @@ body {
     font-weight: bold;
 }
 
+.vs-button-blue {
+    border-radius: 30px;
+    background-color: #2d64e6;
+    border: none;
+    font-weight: bold;
+}
+
+.vs-text-blue {
+    color: #0474ce;
+}
+
+.vs-text-grey {
+    color: #727272;
+}
+
 
 /* contents */
 
