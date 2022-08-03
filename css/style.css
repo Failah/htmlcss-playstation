@@ -21,6 +21,14 @@ body {
     font-weight: bold;
 }
 
+.vs-button-grey {
+    border-radius: 30px;
+    background-color: #d9dadc;
+    color: #2d64e6;
+    border: none;
+    font-weight: bold;
+}
+
 .vs-text-blue {
     color: #0474ce;
 }
@@ -31,6 +39,10 @@ body {
 
 .vs-bg-darkgrey {
     background-color: #1f1f1f;
+}
+
+.vs-bg-lightgrey {
+    background-color: #bebcbb;
 }
 
 
