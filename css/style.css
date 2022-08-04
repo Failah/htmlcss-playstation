@@ -121,6 +121,15 @@ body {
 }
 
 
+/* hover effects */
+
+.vs-presentation-hover:hover {
+    cursor: pointer;
+    opacity: 100% !important;
+    box-shadow: 0 4px 2px -2px #0072ce;
+}
+
+
 /* Bootstrap CSS modifiers */
 
 #navigation .dropdown-menu.show {
