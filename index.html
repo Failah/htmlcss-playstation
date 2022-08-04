@@ -18,18 +18,94 @@
     <!-- header fixed section -->
     <header class="fixed-top">
         <div class="container-fluid">
-            <div class="row flex-row-reverse bg-black py-2">
-                <div class="col-3">
-                    <img class="img-fluid" src="img/sony_logo.svg" alt="Sony Logo">
+            <div class="row bg-black py-2">
+                <div class="text-end">
+                    <img class="img-fluid vs-header-fix" src="img/sony_logo.svg" alt="Sony Logo">
                 </div>
             </div>
-            <div class="row justify-content-between align-items-center bg-white py-3">
-                <div class="col-6">
-                    <img src="img/play_logo.svg" alt="PS Logo">
+            <div class="row justify-content-between align-items-center bg-white">
+                <!-- NAVIGATION -->
+                <div id="navigation" class="px-0">
+                    <nav class="navbar navbar-expand-lg bg-white">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/play_logo.svg" alt="PlayStation" />
+                            </a>
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-collapse collapse justify-content-between" id="navbarNav" style="">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link dropdown-toggle text-black fw-semibold" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Giochi
+                                        </a>
+                                        <ul
+                                            class="dropdown-menu w-100 rounded-0 mt-0 border-0 flex-column align-items-center start-0">
+                                            <div class="row">
+                                                <li class="col-4 text-center">
+                                                    <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                                                    <a class="dropdown-item" href="#">PlayStation 5</a>
+                                                </li>
+                                                <li class="col-4 text-center">
+                                                    <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                                                    <a class="dropdown-item" href="#">PlayStation 4</a>
+                                                </li>
+                                                <li class="col-4 text-center">
+                                                    <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                                                    <a class="dropdown-item" href="#">PlayStation 3</a>
+                                                </li>
+                                            </div>
+
+                                            <li class="col-12">
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <div class="row">
+                                                <li class="col-4"><a class="dropdown-item" href="#">Action</a></li>
+                                                <li class="col-4"><a class="dropdown-item" href="#">Another action</a>
+                                                </li>
+                                                <li class="col-4"><a class="dropdown-item" href="#">Something else
+                                                        here</a></li>
+                                            </div>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Hardware</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Servizi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Novità</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Fai acquisti</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link">Supporto</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">My PlayStation</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn btn-primary vs-button-dark px-3" href="#">Accedi</a>
+                                    </li>
+                                    <li class="nav-item vs-lens-fix">
+                                        <a class="nav-link"><img class="img-fluid" src="img//lens.svg" alt=""></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-                <div class="col-6 text-end">
-                    NAVBAR
-                </div>
+                <!-- / NAVIGATION -->
             </div>
         </div>
 
