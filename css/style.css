@@ -13,6 +13,7 @@ body {
     color: #fff;
     border: none;
     font-weight: bold;
+    max-width: 85px;
 }
 
 .vs-button-orange {
