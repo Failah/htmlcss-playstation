@@ -129,6 +129,28 @@ body {
     box-shadow: 0 4px 2px -2px #0072ce;
 }
 
+#returnal-ratchet-section div div div img {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+#returnal-ratchet-section div div div img:hover {
+    top: -10px;
+}
+
+#new-releases-section div div div img:hover,
+#ps-sale-section div div img:hover,
+#social-section div div img:hover {
+    transform: scale(1.075);
+    cursor: pointer;
+}
+
+footer div div div:nth-child(2) div .h6:hover,
+footer div div div:nth-child(3) div:nth-child(2) span:hover {
+    cursor: pointer;
+}
+
 
 /* Bootstrap CSS modifiers */
 
