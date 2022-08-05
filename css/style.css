@@ -123,6 +123,11 @@ body {
 
 /* hover effects */
 
+.dropdown-menu li img:hover {
+    transform: scale(1.075);
+    cursor: pointer;
+}
+
 .vs-presentation-hover:hover {
     cursor: pointer;
     opacity: 100% !important;
