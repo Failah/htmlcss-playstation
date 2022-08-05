@@ -137,6 +137,7 @@ body {
 
 #returnal-ratchet-section div div div img:hover {
     top: -10px;
+    outline: 2px solid #0072ce;
 }
 
 #new-releases-section div div div img:hover,
